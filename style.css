@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-custom {
+    background-color: #FBAB3E;
+    font-weight: bolder;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #583F6E;
+}
+
+.story-image {
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.story-image img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translateY(60px);
+    left: 0px;
+    pointer-events: none;
+    opacity: 0;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    scale: 0.8;
+    transition: transform 0.5s ease, opacity 0.5s ease, scale 0.5s ease;
+    z-index: 1000;
+}
+
+.story-image:hover img {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(30px);
+    scale: 1;
+}
+
+.beginning-container {
+    background-image: url("photos/palace-of-thebes.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.beginning {
+    background-color: white;
+    padding: 50px;
+}
+
+.story-body h1{
+    padding-bottom: 30px;
+}
+
+.story-body h2{
+    padding-bottom: 20px;
+}
+
+.nextButton {
+    background-color: #FBAB3E;
+    border: 0px;
+    padding: 15px;
+    color: #583F6E;
+    font-weight: bold;
+}
+
+.nextButton:hover {
+    background-color: #d58b24;
+}
+
+.next-prev{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-container {
+    background-image: url("photos/military-camp-at-memphis.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.end-container {
+    background-image: url("photos/temple-of-karnak.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron {
+    background-image: url('photos/homepage.png'); /* Add your background image path */
+    background-size: cover;
+    height: 400px; /* Adjust the height as needed */
+    text-align: center;
+    padding-top: 100px; /* Adjust vertical padding */
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Adjust vertical margin */
+}
+
+.featurette-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #8B4513; /* SaddleBrown color */
+}
+
+.featurette p {
+    font-size: 1.25rem;
+}
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Opulent Palace of Thebes</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="beginning-container story-body">
+
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Egypt Story</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="beginning.html" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Story
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="beginning.html">Beginning</a></li>
+                        <li><a class="dropdown-item" href="middle.html">Middle</a></li>
+                        <li><a class="dropdown-item" href="end.html">End</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="characters.html">Characters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="images.html">Images</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div id="story" class="col-lg-8 offset-lg-2 beginning">
+        <h1 class="text-center">Whispers Across the Nile: An Untold Story of Triumph and Tragedy</h1>
+        <h2 class="text-center">Beginning</h2>
+        <p>
+          The opulent Palace of Thebes stood as a testament to the grandeur of ancient Egypt, its majestic columns
+          reaching towards the heavens adorned with intricate hieroglyphics. Sunlight streamed through the colossal
+          windows, casting a golden hue upon the polished marble floors. Within the heart of this regal abode, political
+          machinations and personal conflicts unfolded like a carefully choreographed dance.
+        </p>
+        <p>
+          Amenhotep, the seasoned military commander, moved with a quiet intensity through the bustling corridors. His
+          presence alone commanded respect, and the intricate gold and royal blue of his military attire mirrored the
+          richness of the palace walls. Deep-set onyx eyes revealed the weight of a tragic past, a burden he bore with
+          stoic resolve. The scars on his face, a testament to battles long fought, only added to the enigma that
+          surrounded him.
+        </p>
+        <p>
+          Nefertari, the cunning diplomat, navigated the labyrinthine corridors with grace. Her almond-shaped eyes, the
+          color of the Nile at sunset, observed every detail. Adorned in regal attire embellished with gold embroidery,
+          she exuded an otherworldly beauty that turned heads in the royal court. Her steps were deliberate, masking the
+          internal conflict that brewed beneath the composed exterior. Loyalty to Egypt warred with personal desires,
+          creating a delicate balance that only she could maintain.
+        </p>
+        <p>
+          Meanwhile, Kahotep, the young and ambitious scribe, scurried through the palace chambers with parchment in
+          hand. His nimble fingers traced the intricate hieroglyphics that adorned the walls. Dressed in the modest
+          attire befitting his station, he moved with an energy that defied his surroundings. Expressive hazel eyes
+          darted from scroll to scroll, absorbing the knowledge that surrounded him. Little did he know that his
+          insatiable curiosity would entangle him in the threads of destiny.
+        </p>
+        <p>
+          As the sun dipped below the horizon, casting long shadows across the palace, a tense energy permeated the air.
+          The Pharaoh's court gathered in the grand hall, where the opulence of gold and royal blue paled in comparison
+          to the weight of the impending threat. Amenhotep navigated the sea of political alliances with practiced
+          finesse.
+        </p>
+        <p>
+          It was in this atmosphere of palpable tension that the Pharaoh delivered the news – a neighboring kingdom,
+          fueled by ambition and thirst for power, threatened war. The delicate balance of peace that had endured for
+          years now teetered on the brink of chaos. Whispers of uncertainty echoed through the hall as the gravity of
+          the situation settled upon the assembled courtiers.
+        </p>
+        <p>
+          Amenhotep's jaw tightened, the scars on his face seeming to deepen in shadow. Memories of past battles
+          resurfaced, and the tragic loss that had haunted him for years loomed larger than ever. Nefertari's eyes
+          narrowed with a mix of determination and concern, recognizing the delicate dance she would have to perform to
+          avert disaster. Kahotep, caught in the currents of royal decrees, found himself thrust into a world of
+          political intrigue beyond his wildest dreams.
+        </p>
+        <p>
+          The inciting incident had unfolded – a threat from beyond the borders that would test the mettle of Egypt's
+          finest, unraveling personal conflicts and setting the stage for a tale that would resonate through the annals
+          of history. The Palace of Thebes, once a bastion of grandeur, now bore witness to the fragile nature of power
+          and the enduring strength of those who would fight to protect their kingdom.
+        </p>
+        <div class="mt-3 next-prev">
+          <div></div>
+          <a href="middle.html" class="btn btn-primary nextButton">Next</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+    var wordsToReplace = ["Palace of Thebes", "Amenhotep", "Military Camp at Memphis", "Temple of Karnak", "Kahotep", "Nefertari"];
+    var imageLocations = ["photos/palace-of-thebes.png", "photos/amenhotep.png", "photos/military-camp-at-memphis.png", "photos/temple-of-karnak.png", "photos/Kahotep.png", "photos/Nefertari.png"];
+
+
+    var storyText = document.getElementById('story').innerHTML;
+
+
+    for (var i = 0; i < wordsToReplace.length; i++) {
+      var word = wordsToReplace[i];
+      var imageLocation = imageLocations[i];
+      var replacementHTML = '<span class="story-image">' + word + '<img src="' + imageLocation + '" alt="' + word + '"></span>';
+      storyText = storyText.replace(new RegExp(word, 'g'), replacementHTML);
+    }
+
+
+    document.getElementById('story').innerHTML = storyText;
+  </script>
+</body>
+
+</html>
